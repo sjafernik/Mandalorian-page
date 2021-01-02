@@ -1,17 +1,30 @@
 <html>
     <head>
         <title>Mandalorian</title>
+        <meta name="description" content="Strona testowa HTML i CSS. Kontentem jest serial
+        z uniwersum Star Wars - The Mandalorian"/>
+        <meta name="robots" content="notfollow" />
+        <meta http-equiv="authot" content="Sylwia Jafernik" />
+        <meta http-equiv="pragma" content="cache" />
+        <meta http-equiv="expires" content="Sunday, 03 January 2021 23:59:59 GMT" />
     </head>
     <body>
-        <h1 id="top">Mandalorian</h1>
-        <h2>Spis Treści</h2>
-        <ul>
-            <li><a href="#plot">Fabuła</a></li>
-            <li><a href="#characters">Postacie</a></li>
-            <li><a href="#new_planets">Nowe planety pojawiające się w serii</a></li>
-            <li><a href="#chapters">Odcinki</a></li>
-            <li><a href="#baby_gallery">Galeria Baby Yody</a></li>
-        </ul>
+        <div id="header">
+            <h1 id="top"><img src="images/logo.png"></h1>
+            <form action="file:///C:/Users/Sylwia/Documents/coding%20-%20my%20repos/learing%20%20html%20-%20Mando%20page/index.html">
+                <h4>Szukaj</h4>
+                <input type="search" name="search" placeholder="Poszukiwany tekst" />
+                <input type="submit" value="Szukaj" />
+            </form>
+            <h2>Spis Treści</h2>
+            <ul>
+                <li><a href="#plot">Fabuła</a></li>
+                <li><a href="#characters">Postacie</a></li>
+                <li><a href="#new_planets">Nowe planety pojawiające się w serii</a></li>
+                <li><a href="#chapters">Odcinki</a></li>
+                <li><a href="#baby_gallery">Galeria Baby Yody</a></li>
+            </ul>
+        </div><!--Koniec nagłówka-->
         <dl>
             <dd><img src="images/plot.jpg" alt="Fabuła" width="600" height="300"></dd>
             <dd><figcaption><a href="https://free4kwallpapers.com/others/the-mandalorian-oc-wallpaper--qnyG">
@@ -264,12 +277,33 @@
                 </tr>
                 <tr>
                     <td><img src="images/BY4.jpg" alt="Baby Yoda IV" width="400" height="200"></td>
-                    <td><img src="images/BY5.jpg" alt="Baby Yoda V" width="400" height="200"></td>
+                    <td><img src="images/BY5.jpg" alt="Baby Yoda V" 
+                        title="https://tr.reneeblare.com/"
+                        width="400" height="200"></td>
                     <td><img src="images/BY6.jpg" alt="Baby Yoda VI" width="400" height="200"></td>
+                </tr>
+                <tr>
+                    <td><img src="images/BY7.jpg" alt="Baby Yoda IV" 
+                        title="https://www.wallpaperflare.com/tv-show-the-mandalorian-baby-yoda-death-star-star-wars-wallpaper-gfvzn" 
+                        width="400" height="200"></td>
+                    <td><img src="images/BY8.jpg" alt="Baby Yoda V" 
+                        title="https://www.fortressofsolitude.co.za/yay-toxic-star-wars-fans-finally-discovered-the-mandalorian/"
+                        width="400" height="200"></td>
+                    <td><img src="images/BY9.jpg" alt="Baby Yoda VI" 
+                        title="https://tr.reneeblare.com/"
+                        width="400" height="200"></td>
                 </tr>
             </table>
         </dd>
         <br>
         <h2><a href="#top">Spis Treści</a></h2>
+        <style>
+            body {
+              background-image: url('images/wallpaper.jpg');
+              background-repeat: no-repeat;
+              background-attachment: fixed;
+              background-size: cover;
+            }
+        </style>
     </body>
 </html>
