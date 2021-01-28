@@ -1,0 +1,41 @@
+/* background */
+body {
+    background-image: url('images/wallpaper.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* main titles */
+h2, h3 {
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* main frame */
+#start {
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.602);
+}
+
+/* frame inside main frame "Spis Treści" inside" */
+h2 {
+    padding: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.472);
+}
+
+/* dots on list under "ul" */
+#main_list > li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+
+a:hover, a:visited, a:link, a:active {
+    text-decoration: none;
+}
+
+/* descriptions - general */
+p {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+}
