@@ -1,9 +1,17 @@
 /* background */
 body {
+    padding: 30px;
     background-image: url('images/wallpaper.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+}
+
+#top {
+    font-size: 150px;
+    background-image: url("images/logo.png");
+    background-repeat: no-repeat;
+    text-indent: -9999px;
 }
 
 /* main titles */
@@ -16,6 +24,7 @@ h2, h3 {
 #start {
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.602);
+    width: 75%;
 }
 
 /* frame inside main frame "Spis Treści" inside" */
@@ -28,9 +37,20 @@ h2 {
 #main_list > li {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: large;
+    color: lightblue;
 }
 
-a:hover, a:visited, a:link, a:active {
+a:hover {
+    text-decoration: none;
+    color: rgb(0, 97, 252) !important;
+}
+
+a:visited {
+    text-decoration: none;
+    color: lightblue;
+}
+
+a:link {
     text-decoration: none;
 }
 
@@ -38,4 +58,5 @@ a:hover, a:visited, a:link, a:active {
 p {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     text-align: justify;
+    width: 75%;
 }
