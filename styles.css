@@ -24,20 +24,24 @@ h2 {
 h3 {
     color: black;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
 }
 
 /* main frame */
 #start {
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+    box-shadow: 5px 5px 15px 5px #000000;
     height: auto;
     width: auto;
     padding-left: 10px;
     background-color: rgba(0, 0, 0, 0.602);
+    border-radius: 10px;
 }
 
 /* dots on list under "ul" */
 #main_list > li {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: large;
+    font-size: 25px;
     color: lightblue;
 }
 
@@ -60,4 +64,51 @@ p {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     text-align: justify;
     width: auto;
+    background-color: rgba(240, 248, 255, 0.281);
+    padding: 5px;
+    float: left;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+    box-shadow: 5px 5px 15px 5px #000000;
+    border-radius: 10px;
+}
+
+.planetlist, .characterslist {
+    border-radius: 50px;
+}
+
+th, td {
+    padding: 7px 10px 10px 10px;
+    min-width: 320px;
+    font-size: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+th {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 90%;
+    border-bottom: 2px solid #111111;
+    border-top: 1px solid #999;
+    text-align: left;
+}
+
+.tableheader {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(17, 25, 93, 0.445);
+    color: antiquewhite;
+    text-shadow: 0 0 10px #FFFFFF;
+    font-size: 20px;
+}
+
+.one {
+    background-color: rgba(43, 66, 107, 0.5)
+}
+
+.two {
+    background-color: rgba(77, 95, 138, 0.554);
+}
+
+.gallerylist {
+    border-radius: 70px;
 }
